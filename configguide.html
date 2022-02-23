@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinashServer - Configuration guide</title>
+    <link href="./assets/css.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body id="main">
+    <header>
+        <p class="text header_title">KinashServer | <a href="https://github.com/andriy332/KinashServer/">GitHub</a> | <a href="https://github.com/andriy332/KinashServer/releases">Download</a></p>
+        <br>
+        <p class="text main_title">A simple node.js http server for local testing or building simple websites</p>
+        <br>
+        <button onclick="redirecttogithub()" class="text header_button" value="VIEW IT ON GITHUB">VIEW IT ON GITHUB</button>
+    </header>
+    <hr>
+    <br>
+    <div id="info">
+        <h3 class="text">What does theese options mean?</h3>
+        <br>
+        <p class="text-pre2">⚬ host - Means what ip the server will listen for</p>
+        <p class="text-pre2">⚬ port - Means what port the server will listen for</p>
+        <p class="text-pre2">⚬ authentication_url - Url for the authentication page. Set to null to disable</p>
+        <p class="text-pre2">⚬ authentication_username - Username for the authentication page. Do not change if authentication is disabled</p>
+        <p class="text-pre2">⚬ authentication_password - Password for the authentication page. Do not change if authentication is disabled</p>
+        <p class="text-pre2">⚬ authentication_realm - Realm for the authentication page (shown in response headers). Do not change if authentication is disabled</p>
+        <p class="text-pre2">⚬ authentication_url - Url for the authentication page. Do not change if authentication is disabled</p>
+        <p class="text-pre2">⚬ authentication_file - File for the authentication page. Must start with ./public_html/[FILE_NAME]. Do not change if authentication is disabled</p>
+        <p class="text-pre2">⚬ max_url_length - This is maximum limit for request url lenght</p>
+        <p class="text-pre2">⚬ error[ERROR_CODE]page - This is error page for [ERROR_CODE]</p>
+        <p class="text-pre2">⚬ disallowcrawlers - Disallow almost all crawlers from accessing your website.</p>
+        <p class="text-pre2">⚬ enablebasicsecuritychecks - Enables protection from XSS, and some exploits. !!! We do not recomment to disable !!!</p>
+        <br>
+        <h3 class="text">My config is broken. How to repair it?</h3>
+        <br>
+        <p class="text-pre2">⚬ You must download a new one from <a href="./downloads/config.json" class="a-blue">here</a></p>
+    </div>
+    <script src="./assets/app.js" type="application/javascript"></script>
+</body>
+</html>

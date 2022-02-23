@@ -1,0 +1,42 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(194, 223, 216);
+}
+
+.a-blue
+{
+    color: rgb(13, 85, 85);
+}
+
+header
+{
+    padding: 20px 0;
+    background-image: linear-gradient(rgb(135, 27, 185), rgb(197, 21, 95));
+    filter: blur(0.5px);
+}
+
+.text
+{
+    margin-left: 3%;
+}
+
+.text-pre2
+{
+    margin-left: 4%;
+}
+
+.header_button
+{
+    cursor: pointer;
+    border:0;
+    padding: 10px;
+    background-color: white;
+}
